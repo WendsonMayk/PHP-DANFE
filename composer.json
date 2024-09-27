@@ -1,0 +1,22 @@
+{
+    "name": "wendson.mayk/upload",
+    "description": "Visualizador de XML, o projeto se trata de um import e visualizador de xml.",
+    "autoload": {
+        "psr-4": {
+            "WendsonMayk\\Upload\\": "src/"
+        },
+        "files": [
+            "app/routers/router.php",
+            "app/helpers/constantes.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Wendson Mayk",
+            "email": "wendson444@gmail.com"
+        }
+    ],
+    "require": {
+        "nfephp-org/sped-da": "^0.1.26"
+    }
+}
